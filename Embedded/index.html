@@ -14,14 +14,29 @@
   <table>
     <tr>
       <td>Company:</td>
-      <td>ParadoxVN - Tuyet Dao Embedded Stg</td>
+      <td>ParadoxVN - Khue Dao Embedded Stg</td>
     </tr>
     <tr>
       <td>Embedded name:</td>
       <td>Candidate Care Embedded</td>
     </tr>
   </table>
-
+  <div style="min-width: 400px; min-height: 300px;padding: 0px" id="my-chat-widget"></div>
+<script type='text/javascript'>
+    var oliviaChatData = oliviaChatData || [];
+    var oliviaChatBaseUrl =  'http://127.0.0.1:8005';
+    oliviaChatData.push(['setKey', 'rzvqzvenwnezoztghrht']);
+    oliviaChatData.push(['setParent', 'my-chat-widget']);
+    oliviaChatData.push(['start']);
+    (function() {
+        var apply = document.createElement('script');
+        apply.type = 'text/javascript';
+        apply.async = true;
+        apply.src = 'http://127.0.0.1:8005/static/site/js/widget-client.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(apply, s);
+    })();
+</script>
 </body>
 
 </html>
