@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>WIDGET</title>
+</head>
+
+<body>
+    <h1>Environment: Localhost</h1>
+
+
+
+    <script type='text/javascript'>
+        var oliviaChatData = oliviaChatData || [];
+        var oliviaChatBaseUrl = 'http://127.0.0.1:8005';
+        oliviaChatData.push(['setKey', 'xzmstuvcjvlbcrnfrrnk']);
+        oliviaChatData.push(['start']);
+        (function () {
+            var apply = document.createElement('script');
+            apply.type = 'text/javascript';
+            apply.async = true;
+            apply.src = 'http://127.0.0.1:8005/static/site/js/widget-client.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(apply, s);
+        })();
+    </script>
+
+</html>
